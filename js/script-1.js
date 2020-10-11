@@ -198,13 +198,9 @@
 // console.log(a);
 // console.log(b);
 
-// let balance = 10000;
-// const payment = 2000;
 
-
-
-const stars = 1;
-let price;
+// const stars = 1;
+// let price;
 
 // if (stars === 1) {
 //     price = 20;
@@ -220,25 +216,83 @@ let price;
 //     console.log('Такого кол-ва звёзд нет');
 // }
 
-switch(stars) {
-    case 1: 
-        price = 20;
-        break;
-    case 2: 
-        price = 30;
-        break;
-    case 3:
-        price = 50;
-        break;
-    case 4:
-        price = 70;
-        break;
-    case 5:
-    case 6:
-        price = 120;
-        break;
-    default:
-        console.log('Такого кол-ва звёзд нету');
-}
+// switch(stars) {
+//     case 1: 
+//         price = 20;
+//         break;
+//     case 2: 
+//         price = 30;
+//         break;
+//     case 3:
+//         price = 50;
+//         break;
+//     case 4:
+//         price = 70;
+//         break;
+//     case 5:
+//     case 6:
+//         price = 120;
+//         break;
+//     default:
+//         console.log('Такого кол-ва звёзд нету');
+// }
 
-console.log(price);
+// console.log(price);
+
+// FOR
+
+// for (let i = 13; i <= 666; i += 40 ) {
+//     console.log(i);
+// }
+
+// console.log('lol');
+
+// for (let i = 0; i < 10; i++) {
+//         console.log(i);
+//     }
+
+// let a = 10;
+// const b = a += 1;
+
+// console.log(a);
+// console.log(b);
+
+
+// Задача про ЗП
+// const minSalary = 500;
+// const maxSalary = 5000;
+// const employees = 6;
+// let totalSalary = 0;
+
+// for (let i = 1; i <= employees; i +=1) {
+//     const salary = Math.round(Math.random() * (maxSalary - minSalary) + minSalary)
+//     console.log(`ЗП работника номер ${i} = ${salary}`);
+
+//     totalSalary += salary;    
+// }
+// console.log('Общая сумма ЗП: ', totalSalary)
+
+//задача про суму парних чисел 
+
+// const min = 5;
+// const max = 15;
+// let total = 0;
+
+// for ( let i = min; i <= max; i += 1) {
+//     // console.log(i);
+//     if(i % 2 !== 0) {
+//         console.log('Не парне: ',i);
+//         continue;        
+//     }     
+
+//     console.log('Парне: ', i);        
+//     total += i;      
+// }
+// console.log('Сума парних: ',total);
+
+
+// ЗАДАЧІ
+
+
+let balance = 10000;
+const payment = 2000;
