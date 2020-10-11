@@ -294,5 +294,45 @@
 // ЗАДАЧІ
 
 
-let balance = 10000;
-const payment = 2000;
+// let balance = 10000;
+// const payment = 2000;
+
+// console.log(`Общая стоимость заказа ${payment} кредитов. Проверяем кол-во доступных средств на счету`);
+
+// if(balance >= payment) {
+//     console.log('Покупка совершена!');
+
+//     balance -= payment;
+
+//     console.log(`На счету осталось ${balance} кредитов`)
+// } else {
+//     console.log('На счету недостаточно средств для проведения операции!');
+// }
+// console.log('Операция завершена');
+
+// DISCOUNT
+
+// let totalSpent = 0;
+// let payment = 5000;
+// let discount = 0;
+
+// if(totalSpent >= 100 && totalSpent < 1000) {
+//     console.log('Бронзовый партнёр, скидка 2%');
+//     discount = 0.02;
+// } else if (totalSpent >= 1000 && totalSpent < 5000) {
+//     console.log('Серебряный партнёт, скидка 5%');
+//     discount = 0.05;
+// } else if(totalSpent >=5000) {
+//     console.log('Золотой партнёт, скидка 10%');
+//     discount = 0.1;
+// } else{
+//     console.log('Не партнёр, скидка 0%');
+// };
+
+// payment -= payment * discount;
+
+// console.log(`Оформляем заказ на суму ${payment} со скидкой ${discount * 100}%`);
+
+// totalSpent += payment;
+
+// console.log(`Общая сумма потраченого в магазине: ${totalSpent}`);
